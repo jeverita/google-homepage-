@@ -1,0 +1,153 @@
+
+Skip to content
+Using Gmail with screen readers
+Meet
+Start a meeting
+Join a meeting
+Chat
+Conversations
+Unread
+ 
+1–50 of 1,141
+ 
+Everything else
+ 
+1–50 of 3,882
+ 
+22.25 GB (22%) of 100 GB used
+Manage
+Terms · Privacy · Programme Policies
+Last account activity: 1 minute ago
+Open in 1 other location · Details
+
+body {
+  font-family: arial,sans-serif;
+}
+
+/* navigation */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #525050;
+    
+  }
+li {
+    display: inline;
+    
+}
+#nav-right {
+    float:right;
+    padding: 8px;
+    }
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    margin-left: -8px;
+    font-size:16px;
+}
+.footer-left {
+    float:left;
+    padding: 8px;
+}
+
+/* sIgn-in button */
+
+.sign-in-button {
+    background: -webkit-linear-gradient(top,#3c7ae4,#3f76d3);
+    color: white;
+}
+.footer-right {
+    float:right;
+    padding: 8px;
+}
+a {
+    text-decoration: none;
+ }
+ a:link {
+     color:#525050;
+ }
+ a:hover {
+     text-decoration: underline;
+
+ }
+ a:active {  
+        text-decoration: none;
+ }
+
+/* google search form */
+.container {
+    display: block;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right:auto;
+    width:40%;
+}
+#logo {
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width:40%;
+}
+form {
+    justify-self: center;
+    position: relative;
+}
+.search-form__icon {
+    color: #9AA0A6;
+    position: absolute;
+    top: auto;
+    left: auto;
+    padding-top: 1.2em;
+    padding-left: 1.1em;
+}
+input[type=text] {
+    color: grey;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    border: 2px solid #e7e7e7;    
+    border-radius: 24px;
+    
+  }
+  input:focus, input.form-control:focus {
+    outline:none !important;
+    -webkit-tap-highlight-color: transparent;
+}
+input:hover {
+    
+        box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+        border-color: rgba(223,225,229,0);
+    
+}
+  .search-buttons {
+    text-align: center;
+    margin: 35px 0px;
+  }
+  button   {
+    background-color: #f2f2f2;
+    border: none;
+    color: #222;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 14px;
+    padding:0.8em;
+    border-radius: 3px;
+}
+button:hover {
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+        background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+        border: 1px solid #c6c6c6;
+        color: #222;
+}
+
+styles.css
